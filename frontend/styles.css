@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(28, 28, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.container {
+    text-align: center; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white; 
+}
+
+h1, h2 {
+    margin: 10px 0; 
+}
+
+label {
+    display: block; 
+    margin-top: 10px; 
+}
+
+input {
+    margin-bottom: 10px; 
+    padding: 5px; 
+    width: 80%; 
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px; 
+    cursor: pointer; 
+}
+#history-container {
+    max-height: 300px; 
+    overflow-y: auto; 
+    margin: 20px auto; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center; 
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: rgb(0, 204, 153); 
+    color: white; 
+}
+
+tr:hover {
+    background-color: rgb(224, 224, 224); 
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(240, 240, 240); 
+}
+body {
+    font-family: 'JetBrains Mono', monospace; 
+    background-color: rgb(28, 28, 34);
+    color: #000; 
+    text-align: center; 
+}
+
+#history {
+    max-height: 200px; 
+    overflow-y: auto; 
+}
