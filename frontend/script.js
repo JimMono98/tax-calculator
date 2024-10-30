@@ -6,6 +6,7 @@ document.getElementById('tax-form').addEventListener('submit', async (event) => 
     const deductions = parseFloat(document.getElementById('deductions').value);
 
 
+    
 
     try {
         if (isNaN(income) || isNaN(expenses) || isNaN(deductions)) {
